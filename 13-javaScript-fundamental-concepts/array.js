@@ -1,0 +1,10 @@
+var friendsAge = [12, 14, 16, 17];
+var naeemAge = friendsAge[2];
+friendsAge[1] = 23;
+var position = friendsAge.indexOf(0);
+console.log(friendsAge);
+friendsAge.push(15);
+friendsAge.push(25);
+console.log(friendsAge);
+friendsAge.pop();
+console.log(friendsAge);
